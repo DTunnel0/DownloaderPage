@@ -5,3 +5,5 @@ bash <(curl -sL https://raw.githubusercontent.com/DTunnel0/DownloaderPage/master
 ```
 
 # Por: [@DuTra01](https://t.me/DuTra01)
+
+![Screenshot](https://raw.githubusercontent.com/DTunnel0/DownloaderPage/master/screenshot.png)
