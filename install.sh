@@ -1,5 +1,5 @@
 url='https://github.com/DTunnel0/DownloaderPage.git'
-dependencies=(git python3 python3-pip screen)
+dependencies=(git python3 pip3 screen)
 
 for dependence in "${dependencies[@]}"; do
     if ! command -v $dependence >/dev/null 2>&1; then
