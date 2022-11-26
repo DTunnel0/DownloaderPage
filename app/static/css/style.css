@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background: #25272c;
+}
+
+.container {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 400px;
+    background: #1e2025;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.form {
+    width: 100%;
+}
+
+input[type=file]::file-selector-button {
+    display: none;
+}
+
+input[type=file] {
+    color: #fff;
+    padding: 20px;
+}
+
+.form .areaUpload {
+    width: 100%;
+    background: #1e2025;
+    border: 2px dashed #fff;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.form .btnUpload {
+    padding: 15px;
+    background: #1a1c1f;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+}
